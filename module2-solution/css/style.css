@@ -1,32 +1,41 @@
-/* Base Styles */
+/* Module 2 Styles */
+
+/* * {
+  box-sizing: border-box;
+} */
+
+.row {
+  width: 100%;
+}
 
 h1 {
-  font-family: Brushstroke, fantasy;
+  font-family: Arial, Helvetica, sans-serif;
   color: #000000;
   text-align: center;
 }
 
-
 p {
-  padding: 10px;
+  padding: 15px;
   margin: 0;
 }
 
 .container {
   border: none;
+  box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
 }
 
 section {
   border: 1px solid black;
-  background-color: #00FF99;
+  box-sizing: border-box;
+  background-color: #C0C0C0;
   width: 100%;
   height: 200px;
-  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
   color: black;
   position: relative;
   overflow: auto;
@@ -35,48 +44,43 @@ section {
 #chicken {
   border: 1px solid black;
   text-align: center;
-  width: 30%;
-  margin-left: 70%;
-  font-family: Georgia,sans-serif;
+  width: 33%;
+  margin-left: 67%;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 125%;
   margin-bottom: 0;
   margin-top: 0;
-  padding: 5px;
-  background-color: #FFFF00;
+  background-color: #FF9999;
+  padding: 10px;
 }
 
 #beef {
   border: 1px solid black;
   text-align: center;
-  width: 30%;
-  margin-left: 70%;
-  font-family: Georgia,sans-serif;
+  width: 33%;
+  margin-left: 67%;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 125%;
   margin-bottom: 0;
   margin-top: 0;
-  padding: 5px;
-  background-color: #FF1439;
+  background-color: #CE4E44;
+  padding: 10px;
 }
 
 #sushi {
   border: 1px solid black;
   text-align: center;
-  width: 30%;
-  margin-left: 70%;
-  font-family: Georgia,sans-serif;
+  width: 33%;
+  margin-left: 67%;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 125%;
   margin-bottom: 0;
   margin-top: 0;
-  background-color: #6495ED;
-  color: white;
-  padding: 5px;
-}
-
-.row {
-  width: 100%;
+  background-color: #E2DAB6;
+  padding: 10px;
 }
 
 /* Desktop view */
@@ -172,7 +176,7 @@ section {
 
 /* Mobile view */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
   float: left;
   }
